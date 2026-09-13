@@ -1,0 +1,14 @@
+{
+  "name": "tft-moderator-onboarding",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "The Forbidden Trove moderator onboarding knowledge portal",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node scripts/serve.mjs dist",
+    "start": "node scripts/serve.mjs dist",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs build"
+  }
+}

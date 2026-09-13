@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d11">
+  <meta name="description" content="Onboarding for new TFT moderators. Principles, ticket workflows, account procedures, and a searchable command reference for The Forbidden Trove.">
+  <meta property="og:title" content="TFT Moderator Onboarding · The Forbidden Trove">
+  <meta property="og:description" content="Training and reference portal for The Forbidden Trove moderation team.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ri-el.github.io/tft-moderator-onboarding/">
+  <meta property="og:image" content="https://ri-el.github.io/tft-moderator-onboarding/assets/tft-team.png">
+  <meta property="og:image:alt" content="The Forbidden Trove Discord Team artwork">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TFT Moderator Onboarding · The Forbidden Trove">
+  <meta name="twitter:description" content="Training and reference portal for The Forbidden Trove moderation team.">
+  <meta name="twitter:image" content="https://ri-el.github.io/tft-moderator-onboarding/assets/tft-team.png">
+  <title>TFT Moderator Onboarding · The Forbidden Trove</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b0d11'/%3E%3Cpath d='M8 9h16v4h-6v12h-4V13H8z' fill='%23d26346'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="topbar">
+  <a class="brand" href="#introduction" aria-label="The Forbidden Trove — Introduction"><span class="brand-mark">TFT<span></span></span><span class="brand-caption">THE FORBIDDEN TROVE<span>MODERATOR OPERATIONS</span></span></a>
+  <div class="header-actions"><a class="command-shortcut" href="#commands"><span aria-hidden="true">⌘</span> Command reference</a><button class="menu-toggle" aria-controls="navigation" aria-expanded="false">Contents <span aria-hidden="true">☰</span></button></div>
+</header>
+<aside class="sidebar" id="navigation">
+  <p class="eyebrow contents-label">YOUR ONBOARDING</p>
+  <nav aria-label="Onboarding sections" id="section-nav">
+    <a class="active" href="#introduction" aria-current="location"><span>01</span> Introduction</a>
+    <a href="#mindset"><span>02</span> Moderator Mindset</a>
+  </nav>
+  <div class="progress-block"><div><span>Reading progress</span><strong id="progress-label">0%</strong></div><progress id="reading-progress" value="0" max="100" aria-label="Reading progress"></progress><p id="section-count">01 / 12 sections</p></div>
+  <a class="sidebar-bottom" href="#introduction">Back to top <span aria-hidden="true">↑</span></a>
+</aside>
+<main id="main" tabindex="-1">
+  <section id="introduction" class="hero panel" data-section="Introduction">
+    <div class="hero-content"><p class="eyebrow">THE FORBIDDEN TROVE</p><h1>TFT Moderator<br>Onboarding</h1><span class="accent-line"></span><p class="hero-subtitle">Onboarding for new TFT moderators</p><a class="start-button" href="#mindset">Start Onboarding <span aria-hidden="true">↓</span></a></div>
+    <div class="panel-footer"><span>MODERATOR OPERATIONS</span><span class="page-number">01 / 12</span></div>
+  </section>
+  <section id="mindset" class="training-section" data-section="Moderator Mindset">
+    <div class="section-heading"><p class="eyebrow">02 / MODERATOR MINDSET</p><h2>Your Time is Precious</h2><span class="accent-line"></span></div>
+    <div class="mindset-grid">
+      <article class="numbered-card"><span class="number">01</span><div><h3>We are all volunteers</h3><p>Protect the time you give to the team</p></div></article>
+      <article class="numbered-card"><span class="number">02</span><div><h3>Stay polite, not endlessly available</h3><p>Don't allow arguments to consume the ticket</p></div></article>
+      <article class="numbered-card"><span class="number">03</span><div><h3>Close tickets decisively</h3><p>When users stop responding or waste moderator time</p></div></article>
+      <article class="numbered-card"><span class="number">04</span><div><h3>Spot the common time drains</h3><p>Wrong tickets · missing evidence · reopened disputes · ignored instructions</p></div></article>
+    </div>
+  </section>
+  <div id="remaining-sections"></div>
+</main>
+<div class="toast" id="toast" role="status"></div>
+<script type="module" src="app.js"></script>
+</body></html>
